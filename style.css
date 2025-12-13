@@ -8,6 +8,8 @@ border:2px solid black;
 border-radius:25px;
 background-size:cover;
 padding:10px;
+
+text-align:center;
 }
 footer{
 height:100px;
@@ -53,6 +55,11 @@ header a {
 margin:10px;	
 }
 
+img{
+border:2px black solid;
+border-radius:25px;	
+}
+
 @media (max-width: 900px) {
 img{
 weight:2%;
@@ -60,4 +67,7 @@ height:2%;
 }
 }
 
+body{
+background: linear-gradient(70deg,#004225,pink;)	
+}
 
